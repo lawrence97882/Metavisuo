@@ -1,0 +1,49 @@
+
+text{
+   font-weight: bold;
+}
+
+line{
+    stroke:black;
+    stroke-width:3;
+}
+
+/*
+Styling the elipse*/
+*[selected]{
+    stroke:red;
+    stroke-width:10;
+    transform: 
+}
+
+/*
+hiding buttons using the visibility*/
+*[hidden]{
+    visibility: hidden;
+}
+#navigation{
+    height:10%;
+    background-color:aqua;
+}
+
+
+
+#content{
+  background-color: powderblue;
+}
+#select{
+   height: 2%;
+  background-color: powderblue;
+}
+
+
+table {
+  width: 30%;
+}
+
+/*
+making the ellipses draggable using the class draggable 
+*/
+.draggable {
+    cursor: move;
+  }

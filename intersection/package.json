@@ -1,0 +1,15 @@
+{
+  "name": "kevinter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "kld-intersections": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kimotho",
+  "license": "ISC"
+}

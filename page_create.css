@@ -1,0 +1,49 @@
+ h2{
+    color: blue;
+    text-decoration: green;
+
+}
+textarea{
+    background-color: bisque;
+    color:green;
+
+}           
+label{
+    display:block;
+    color: blue;
+    margin-top: 2%;
+
+}
+span:after{
+    content: ":"; 
+}
+
+span{
+    font-size:30px;
+    font-family:serif;
+    font:larger;
+
+}
+input{
+    background-color: bisque;
+    color:green;
+}
+
+body{
+    text-align: center;
+    padding-top: 30%;
+}
+
+.bg-image{
+    background:url("Mutall1.JPG") no-repeat center ;
+    opacity: 0.2;
+    height: 100vh;
+    background-position:cenert top; 
+}
+form{
+    margin-top: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

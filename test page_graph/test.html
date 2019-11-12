@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <svg height="4200" width="4200" viewbox="0 0 2100 2100">
+        <g id="group">
+        </g>
+        </svg>
+        
+        <script>
+            const group= document.querySelector('#group');
+            group.innerHTML=``
+                   //ellipse coodinates
+                    +`<ellipse 
+                        fill="yellow" 
+                        cx="100" 
+                        cy="100" 
+                        rx="50" 
+                        ry="20" 
+                        id="id" 
+                        class="draggable"                
+                        />`
+                    //Label the ellipse with the name of this entity
+                    +`<text  
+                        x='100' 
+                        y='120'
+                        text-anchor='middle'    
+                        fill='blue'  font-size="10px">some text </text>`;
+        </script>
+    </body>
+</html>

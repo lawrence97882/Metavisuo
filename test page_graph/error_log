@@ -1,0 +1,44 @@
+[29-May-2019 10:05:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the PROCESS privilege(s) for this operation in /home/mutallco/public_html/development/metavisuo/library.php:248
+Stack trace:
+#0 /home/mutallco/public_html/development/metavisuo/library.php(248): PDO->query('select FOR_NAME...')
+#1 /home/mutallco/public_html/development/metavisuo/library.php(225): relations->fill_from_dbase(Object(database))
+#2 /home/mutallco/public_html/development/metavisuo/library.php(44): relations->__construct(Object(database))
+#3 /home/mutallco/public_html/development/metavisuo/graph.php(18): database->__construct('mutallco_rental', 1200, '4200', '-400', '0')
+#4 {main}
+  thrown in /home/mutallco/public_html/development/metavisuo/library.php on line 248
+[29-May-2019 10:06:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the PROCESS privilege(s) for this operation in /home/mutallco/public_html/development/metavisuo/library.php:248
+Stack trace:
+#0 /home/mutallco/public_html/development/metavisuo/library.php(248): PDO->query('select FOR_NAME...')
+#1 /home/mutallco/public_html/development/metavisuo/library.php(225): relations->fill_from_dbase(Object(database))
+#2 /home/mutallco/public_html/development/metavisuo/library.php(44): relations->__construct(Object(database))
+#3 /home/mutallco/public_html/development/metavisuo/graph.php(18): database->__construct('mutallco_rental', 1200, '4200', '-400', '0')
+#4 {main}
+  thrown in /home/mutallco/public_html/development/metavisuo/library.php on line 248
+[29-May-2019 10:12:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the PROCESS privilege(s) for this operation in /home/mutallco/public_html/development/metavisuo/library.php:248
+Stack trace:
+#0 /home/mutallco/public_html/development/metavisuo/library.php(248): PDO->query('select FOR_NAME...')
+#1 /home/mutallco/public_html/development/metavisuo/library.php(225): relations->fill_from_dbase(Object(database))
+#2 /home/mutallco/public_html/development/metavisuo/library.php(44): relations->__construct(Object(database))
+#3 /home/mutallco/public_html/development/metavisuo/graph.php(18): database->__construct('mutallco_rental', 1200, '4200', '-400', '0')
+#4 {main}
+  thrown in /home/mutallco/public_html/development/metavisuo/library.php on line 248
+[29-May-2019 10:12:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mutallco'@'localhost' (using password: YES) in /home/mutallco/public_html/development/metavisuo/library.php:35
+Stack trace:
+#0 /home/mutallco/public_html/development/metavisuo/library.php(35): PDO->__construct('mysql:host=loca...', 'mutallco', 'mutall_2015f')
+#1 /home/mutallco/public_html/development/metavisuo/graph.php(18): database->__construct('mutallco_rental', 1200, '4200', '-400', '0')
+#2 {main}
+  thrown in /home/mutallco/public_html/development/metavisuo/library.php on line 35
+[29-May-2019 10:13:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mutallco'@'localhost' (using password: YES) in /home/mutallco/public_html/development/metavisuo/library.php:35
+Stack trace:
+#0 /home/mutallco/public_html/development/metavisuo/library.php(35): PDO->__construct('mysql:host=loca...', 'mutallco', 'mutall_2015f')
+#1 /home/mutallco/public_html/development/metavisuo/graph.php(18): database->__construct('mutallco_rental', 1200, '4200', '-400', '0')
+#2 {main}
+  thrown in /home/mutallco/public_html/development/metavisuo/library.php on line 35
+[29-May-2019 10:13:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the PROCESS privilege(s) for this operation in /home/mutallco/public_html/development/metavisuo/library.php:248
+Stack trace:
+#0 /home/mutallco/public_html/development/metavisuo/library.php(248): PDO->query('select FOR_NAME...')
+#1 /home/mutallco/public_html/development/metavisuo/library.php(225): relations->fill_from_dbase(Object(database))
+#2 /home/mutallco/public_html/development/metavisuo/library.php(44): relations->__construct(Object(database))
+#3 /home/mutallco/public_html/development/metavisuo/graph.php(18): database->__construct('mutallco_rental', 1200, '4200', '-400', '0')
+#4 {main}
+  thrown in /home/mutallco/public_html/development/metavisuo/library.php on line 248
